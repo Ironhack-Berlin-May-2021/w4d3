@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 	// console.log('the home page')
 	// this variable is provided by node 
 	// console.log(__dirname);
-	// res.send('this is the home page');
+	// res.send('<h1>this is the home page</h1>');
 	res.sendFile(__dirname + '/views/home-page.html');
 });
 
